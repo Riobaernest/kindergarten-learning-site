@@ -1,0 +1,93 @@
+/* css/style.css */
+
+/* General page setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffbe6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ff6600;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #ff6600;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+ul li a:hover {
+    color: #ff6600;
+}
+
+/* Buttons */
+input[type="submit"], a.button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, a.button:hover {
+    background-color: #ff9900;
+}
+
+/* Footer */
+footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    color: #ff6600;
+}
