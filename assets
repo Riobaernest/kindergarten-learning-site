@@ -1,0 +1,16 @@
+assets/
+├── images/
+│   └── (any images you want, like logo or fun icons)
+└── books/
+    ├── age3-4/
+    │   ├── age3-4_book1.pdf
+    │   ├── age3-4_book2.pdf
+    │   └── age3-4_book3.pdf
+    ├── age4-5/
+    │   ├── age4-5_book1.pdf
+    │   ├── age4-5_book2.pdf
+    │   └── age4-5_book3.pdf
+    └── age5-6/
+        ├── age5-6_book1.pdf
+        ├── age5-6_book2.pdf
+        └── age5-6_book3.pdf
