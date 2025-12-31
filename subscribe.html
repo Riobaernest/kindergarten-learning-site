@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe - Fun Learning for Kids</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Subscribe</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="books.html">Library</a> |
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Monthly Subscription</h2>
+            <p>Get full access to 200+ educational books for kids ages 3-6.</p>
+            <p>Price: $1.50 per month</p>
+
+            <!-- PayPal Button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="Riobaernest4@gmail.com">
+                <input type="hidden" name="item_name" value="Kids Learning Subscription">
+                <input type="hidden" name="amount" value="1.50">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="submit" value="Subscribe via PayPal">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fun Learning for Kids</p>
+        <a href="terms.html">Terms & Conditions</a>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
